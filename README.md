@@ -19,7 +19,12 @@ It aggregates by **IP address**, showing:
    ```bash
    git clone https://github.com/Elyessto/SSH-Brute-Force-Detector.git
    cd     SSH-Brute-Force-Detector/
-   vim *.py
-   set your log paths
+   
+   ## set your log paths inside the Python scripts 
    python3 Parse_compressed_log_files.py OR python3 Parse_log_files.py
-
+2. Set Your Log Path
+   ```bash
+   vim Parse_compressed_log_files.py  ==> logfile = "/var/log/auth.log.3.gz"
+   vim Parse_log_files.py  ==> logfile = "/var/log/auth.log
+3. Run Script
+   python3 Parse_compressed_log_files.py or Parse_log_files.py
