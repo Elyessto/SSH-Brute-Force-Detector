@@ -28,4 +28,4 @@ It aggregates by **IP address**, showing:
    vim Parse_log_files.py  ==> logfile = "/var/log/auth.log
 3. Run Script
    ```bash
-    python3 Parse_compressed_log_files.py or Parse_log_files.py
+    python3 Parse_compressed_log_files.py  // python3 Parse_log_files.py
